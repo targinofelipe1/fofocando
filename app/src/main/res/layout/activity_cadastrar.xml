@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastrarActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:text="Fofocando"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/etCadastrarFofoca"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="50dp"
+        android:gravity="center" />
+
+    <RadioGroup
+        android:id="@+id/rgCadastrarStatus"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginHorizontal="50dp" >
+
+        <RadioButton
+            android:id="@+id/rbCadastrarVerdade"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Verdade"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/rbCadastrarMentira"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Mentira"
+            android:textSize="24sp" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|top"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="25dp">
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="13dp"
+            android:text="Salvar" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="13dp"
+            android:text="Cancelar" />
+
+    </LinearLayout>
+
+</LinearLayout>
